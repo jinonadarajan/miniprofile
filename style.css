@@ -467,63 +467,6 @@
     font-weight: 100px;
     text-align: center;
    }
-    
-}
-@media screen and (min-width:321px) and (max-width:520px) {
-    .profile{
-        background-image: url(./img/mini-profile-bg-01.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        height: auto;
-       }
-       .mini-profile{
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        margin: 50px;
-        padding: 20px 10px 30px 10px;
-        width: auto;
-       }
-       .name1{
-        font-size: 40px;
-        font-weight: 200;
-        margin-bottom: 20px;
-        text-align: center;
-       }
-       .name2{
-        font-size: 20px;
-        font-weight: 100px;
-        text-align: center;
-       }
-    
-}
-@media screen and (min-width:520px) and (max-width:750px) {
-    .profile{
-        background-image: url(./img/mini-profile-bg-01.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        height: auto;
-       }
-       .mini-profile{
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        margin-top: 100px;
-        padding: 20px 10px 30px 10px;
-        width: auto;
-       }
-       .name1{
-        font-size: 40px;
-        font-weight: 200;
-}
-}
-@media screen and (max-width: 320px){
     .Welcome{
     height: max-content;
     flex-direction: column;
@@ -531,35 +474,6 @@
     .welcome-content1{
      width: 90%;
     }
-}
-
-@media screen and (min-width: 320px) and (max-width: 520px){
-    .Welcome{
-    height: max-content;
-    flex-direction: column;
-    }
-    .welcome-content1{
-     width: 90%;
-    }
-}
-
-@media screen and (min-width: 520px) and (max-width: 750px){
-    .Welcome{
-    height: max-content;
-    flex-direction: column;
-    }
-    .welcome-content1{
-    background-color: #986665;
-    color: white;
-    padding: 10px;
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 100;
-    height: 100%;
-    }
-}
-
-@media screen  and (max-width :320px){
     .casestudy1{
         display: flex;
         flex-direction: column;
@@ -649,35 +563,7 @@
      .casestudy-image4 h2{
         font-size: 25px;
      }  
-}
-@media screen and (min-width: 321px) and (max-width: 520px){
-    .casestudy1{
-      display: flex;
-      flex-direction: column;
-      padding: 60px;
-    }
-     .casestudy2{
-      display: flex;
-      flex-direction: column;
-      padding: 60px;
-         margin-top: 0px;
-    }
-     .casestudy3{
-      display: flex;
-      flex-direction: column;
-      padding: 60px;
-      margin-top: 0px;
-    }
-     .casestudy4{
-      display: flex;
-      flex-direction: column;
-      padding: 60px;
-      margin-top: 0px;
-    }
-}
-
-@media screen  and (max-width :320px){
-    .footer{
+      .footer{
         height: max-content;
     }
     .footer-box{
@@ -702,10 +588,7 @@
             padding: 20px;
             margin: 30px
     }
-}
-
-@media screen  and (max-width :320px){
-    .contact{
+     .contact{
       width: 80%;
         margin: 30px;
         padding: 30px;
@@ -724,7 +607,117 @@
     .messagetag{
         width: 100%;
     }
+
+    
 }
+@media screen and (min-width:321px) and (max-width:520px) {
+    .profile{
+        background-image: url(./img/mini-profile-bg-01.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        height: auto;
+       }
+       .mini-profile{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        margin: 50px;
+        padding: 20px 10px 30px 10px;
+        width: auto;
+       }
+       .name1{
+        font-size: 40px;
+        font-weight: 200;
+        margin-bottom: 20px;
+        text-align: center;
+       }
+       .name2{
+        font-size: 20px;
+        font-weight: 100px;
+        text-align: center;
+       }
+         .Welcome{
+    height: max-content;
+    flex-direction: column;
+    }
+    .welcome-content1{
+     width: 90%;
+    }
+     .casestudy1{
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+    }
+     .casestudy2{
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+         margin-top: 0px;
+    }
+     .casestudy3{
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+      margin-top: 0px;
+    }
+     .casestudy4{
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+      margin-top: 0px;
+    }
+    
+}
+@media screen and (min-width:521px) and (max-width:750px) {
+    .profile{
+        background-image: url(./img/mini-profile-bg-01.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        height: auto;
+       }
+       .mini-profile{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        margin-top: 100px;
+        padding: 20px 10px 30px 10px;
+        width: auto;
+       }
+       .name1{
+        font-size: 40px;
+        font-weight: 200;
+}
+ .Welcome{
+    height: max-content;
+    flex-direction: column;
+    }
+    .welcome-content1{
+    background-color: #986665;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
